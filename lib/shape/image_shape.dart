@@ -9,7 +9,6 @@
 import 'dart:ui' as ui;
 import 'package:flutter/material.dart';
 import 'package:magic_canvas_with_image_export/magic_canvas_with_image_export.dart';
-import 'package:magic_canvas_with_image_export/shape/shape.dart';
 
 class ImageShape extends AbstractShape {
   ui.Image image;
