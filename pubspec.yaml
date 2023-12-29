@@ -1,7 +1,8 @@
 name: magic_canvas_with_image_export
-description: This package allows to export image from cannas, Canvas used by magic canvas library
-version: 0.0.1
-homepage:
+description: This package allows to export image from canvas, Canvas used by magic canvas library
+version: 0.0.2
+homepage: https://github.com/AkshayGemsEssence/magic_canvas_with_image_export
+documentation: https://example-pet-store.com/newtify/docs
 
 environment:
   sdk: '>=3.0.6 <4.0.0'

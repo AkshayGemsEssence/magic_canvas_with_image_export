@@ -131,7 +131,7 @@ class BoardState extends State<Board> {
               child: CustomPaint(
                 size: widget.size ?? MediaQuery.of(context).size,
                 painter: BoardPainter(
-                  background: widget.color ?? Colors.white,
+                  background: widget.color,
                   children: widget.children,
                 ),
               ),

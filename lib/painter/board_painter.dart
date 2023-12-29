@@ -6,14 +6,18 @@ class BoardPainter extends CustomPainter {
   final Color? background;
   final bool hideGrid;
 
-  BoardPainter({
-    this.children,
-    this.background,
-    this.hideGrid = false
-  });
+  BoardPainter({this.children, this.background, this.hideGrid = false});
 
   @override
   void paint(Canvas canvas, Size size) {
+    final Paint gridPaint = Paint()..color = background ?? Colors.white;
+    canvas.drawRect(
+        Rect.fromCenter(
+          width: size.width,
+          height: size.height,
+          center: Offset(size.width/2, size.height/2)
+        ),
+        gridPaint);
     if (hideGrid == false) {
       _drawGrid(canvas, size, 20);
     }

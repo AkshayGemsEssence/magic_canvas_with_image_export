@@ -46,7 +46,7 @@ abstract class AbstractShape {
   AbstractShape({
     this.location = const Offset(0, 0),
     this.size = const Size(20, 20),
-    this.color = Colors.grey,
+    this.color = Colors.transparent,
     this.zIndex = 0,
     this.reactSize = 10,
   });
